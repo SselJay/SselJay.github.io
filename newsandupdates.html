@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <nav class="custom-class-main-nav navbar sticky-top navbar-expand-lg p-3 shadow bg-white">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="custom-class-logo-top collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="custom-class-logo-top nav-item">
+          <a id="homeicon" class="custom-class-logo-top nav-link active" aria-current="page" href="/index.html"><img class="custom-class-logo-top" src="/images/logoTGP.png" alt=""></a>
+          <hr class="custom-class-logo-top-hr">
+        </li>
+      </ul>
+      <ul class="custom-class-navbar-gap navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item text-center">
+          <a id="custom-class-hover-a" class="fs-5 nav-link" aria-current="page" href="/solutions.html">Solutions</a>
+        </li>
+        <li class="nav-item text-center">
+          <a id="custom-class-hover-a" class="fs-5 nav-link" href="/newsandupdates.html">News and Updates</a>
+        </li>
+      
+      <li class="custom-class-dropdown nav-item dropdown">
+        <button class="fs-5 btn btn dropdown-toggle" type="button"data-bs-toggle="dropdown">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="green" class="bi bi-person-square" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
+              </svg>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="/bootstrap_login.html">Logout</a></li>
+          <li><a class="dropdown-item" href="/bootstrap_signup.html">Join Us</a></li>
+        </ul>
+      </li>
+    </ul>
+    </div>
+</nav>
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- Main Content Here -->
+    <div class="container">
+      <p class="custom-class-hero-text-a-solution text-center">
+        Latest News
+      </p>
+      <hr class="mb-5">
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="images/volcano.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Volcano erupted just because he wants to.</h5>
+              <p>Did you just assume its gender!?</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/factory.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Factories in India continues to operate</h5>
+              <p>Source: trust me bro</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/rat.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Pests control are outnumbered</h5>
+              <p>Pests like house rats are pet material</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <hr class="w-75 mx-auto my-5">
+      <div class="container my-5" style="min-height: 80px;">
+        <p class="fs-1 text-center">
+            Our Latest Updates
+        </p>
+      </div>
+      <!-- <hr class="w-25 mx-auto mb-5"> -->
+      <div class="custom-class-cards container d-flex justify-content-evenly">
+        <!-- first -->
+        <div class="card" style="width: 18rem;">
+            <img src="images/protest.jpg" style="width: 287px; height: 287px;" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">100km protest to shut down a plastic factory.</h5>
+              <p class="card-text">I'm so proud of this community. So more info
+                <a href="#" class="text-success">here!</a>
+              </p>
+            </div>
+          </div>
+          <hr class="custom-class-hrnu w-50 mx-auto my-3">
+          <!-- second -->
+        <div class="card" style="width: 18rem;">
+            <img src="images/pickup trash.jpg" style="width: 287px; height: 287px;" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">River cleaning activity yesterday around Pasig</h5>
+              <p class="card-text">Over 10 tons of wastes collected. more info <a href="#" class="text-success">here!</a></p>
+            </div>
+          </div>
+          <hr class="custom-class-hrnu w-50 mx-auto my-3">
+          <!-- third -->
+        <div class="card" style="width: 18rem;">
+            <img id="cardimage" src="images/tree-planting news.jpg" style="width: 287px; height: 287px;" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">More than 500 trees planted in Isabela</h5>
+              <p class="card-text">Well I wish this was true but if you want to know more, just click
+                <a href="#" class="text-success">here!</a>
+              </p>
+            </div>
+          </div>
+      </div>
+<!-- footer -->
+<div class="mt-5" style="border-bottom: 2px solid rgb(0, 49, 63);"></div>
+<footer class="border border-2" style="background-color: rgb(255, 255, 255); min-height: 200px;">
+  <div class="custom-class container d-flex">
+    <div class="container">
+      <p class="mt-5 text-center">
+        The Green Project - All Rights Reserved. Copyright © 2022
+      </p>  
+
+    </div>
+    <div class="container img-fluid flex-wrap d-flex gap-3 justify-content-center mt-4">
+      <img class="custom-class-footericon" src="/svg/discord.svg" alt="" style="min-width: 35px;">
+          <img class="custom-class-footericon" src="/svg/facebook.svg" alt="" style="min-width: 35px;">
+          <img class="custom-class-footericon" src="/svg/github.svg" alt="" style="min-width: 35px;">
+          <img class="custom-class-footericon" src="/svg/instagram.svg" alt="" style="min-width: 35px;">
+          <img class="custom-class-footericon" src="/svg/telegram.svg" alt="" style="min-width: 35px;">
+          <img class="custom-class-footericon" src="/svg/twitter.svg" alt="" style="min-width: 35px;">
+    </div>
+  </div>
+  <div class="container mt-4"><img class="img-fluid d-block mx-auto" style="max-width: 200px;" src="/images/logoTGP.png" alt=""></div>
+  <div class="container">
+    <p class="text-center mt-3 pb-2">
+      The Green Project @ 2022
+    </p>
+  </div>
+</footer>
+</body>
+</html>
